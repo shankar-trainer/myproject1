@@ -1,3 +1,4 @@
+
 To run a simple Spring Boot project inside GitHub Actions (CI/CD pipeline), you need to set up a workflow file inside your project repository.
 
 *(Note: Assuming you meant a standard modern Spring Boot version like **3.x** or similar, as Spring Boot 4.x is a future/hypothetical release, the exact same workflow setup applies using standard Java and Maven/Gradle build commands).*
@@ -108,3 +109,8 @@ git push -u origin main
 ---
 
 Would you like to extend this workflow to automatically build a Docker image and push it to Docker Hub or deploy it to a cloud server?
+
+
+======================
+it must have .mvn  directory and mvnw file 
+
